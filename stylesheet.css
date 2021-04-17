@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    background-image: url("../images/unsplash.jpg");
+    background-position: 0% auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.barra {
+    background-color: rgba(240, 240, 250, 0.582);
+    overflow:auto;
+    border-radius: 5px;
+}
+    
+    .barra a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+    }
+
+
+    .barra a:hover {
+    background-color: rgba(240, 240, 250, 0.582);
+    color: black;
+    }
+
+
+    .barra a.active {
+    background-color: #107410bd;
+    color: white;
+    }
+
+.logo{
+    display: block;
+    margin: 5px;
+    width: 35%;
+    border-radius: 5px;
+}
+
+h1,h2{
+    text-align:center;
+    font-style: bold;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    font-style: normal;
+}
+
+.row3, .preguntas, .textoinicio{
+    text-align:justify;
+    display: inline-flex;
+    background-color: rgba(255, 254, 254, 0.397);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.textoinicio p{
+    margin: 5px;
+}
+
+.column3{
+    margin:10px;
+    padding: 10px 10 px;
+    width: 33%;
+    text-align:justify;
+}
+
+form:first-child{
+    margin-top: 10px;
+}
+
+.row{
+    background-color: rgba(255, 254, 254, 0.397);
+    margin: 5px;
+}
+
+.row input{
+    width: 85%;
+    padding-left: 3px;
+    margin: auto;
+}
+
+.column {
+    float:left;
+    width: 50%;
+    padding: 10px 10px;
+    background-color: rgba(255, 254, 254, 0.397);
+    text-align: center;
+}
+
+.submit-wrap{
+    text-align: center;
+    padding-top: 255px;
+}
+
+.formulario{
+    padding: 10px 150px;
+}
+
+footer{
+    text-align: center;
+    background-color:rgba(129, 129, 129, 0.697);
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: Times, Arial, Helvetica, sans-serif;
+    padding: 3px;
+}
